@@ -5,7 +5,9 @@
     "database": "database_development",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "jwt_secret":"tu mama te mima"
+    "jwt_secret":"tu mama te mima",
+    "user": "tu correo",
+    "pass": "tu contra"
   },
   "test": {
     "username": "root",

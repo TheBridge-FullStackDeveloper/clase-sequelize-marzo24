@@ -9,5 +9,6 @@ router.delete("/id/:id", authentication, isAdmin, UserController.delete);
 router.put("/id/:id", authentication, UserController.update);
 router.post("/login", UserController.login);
 router.delete("/logout", authentication, UserController.logout);
+router.get("/confirm/:emailToken",UserController.confirm)
 
 module.exports = router;
