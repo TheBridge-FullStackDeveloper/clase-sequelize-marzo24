@@ -11,3 +11,5 @@ app.use("/posts",require("./routes/posts"))
 app.use(typeError)
 
 app.listen(PORT,()=> console.log(`Server started on port ${PORT}`))
+// console.log(process.env.NODE_ENV);
+module.exports = app
